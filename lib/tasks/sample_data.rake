@@ -41,3 +41,4 @@ Approx. Measurements:
 These are made to order by Ryan for you. Though  may show more than one is available, this is our method to allow you to either order more than one at a time, and also the way we are able to renew our listing on Etsy.
 
 Feel free to contact us if you need your order expedited and we'll see what we can do!")
+end
