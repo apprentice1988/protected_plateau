@@ -87,6 +87,7 @@ When ordering please specify color of metal (silver or copper) and which hinge y
 	:price=>23.2,
   :photo_url=>"http://img1.etsystatic.com/021/0/6511236/il_570xN.476089017_wklp.jpg",
   :ftag=>"flower")
+
 4.times do
 	Product.create(
 		:title=>"soft chair spring",
