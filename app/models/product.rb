@@ -1,5 +1,5 @@
 class Product < ActiveRecord::Base
-  attr_accessible :description, :image_url, :image_url1, :image_url2, :image_url3, :image_url4, :price, :title, :photo_url, :ftag
+  attr_protected
   has_many :line_items
   has_one  :tagging
   has_one  :tag, :through => :tagging
