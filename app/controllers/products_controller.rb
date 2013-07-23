@@ -2,15 +2,15 @@ class ProductsController < ApplicationController
   before_filter :admin_user, only: [:new, :edit, :update, :destroy, :create]
 
   def index
-    @search = Product.search do 
-      fulltext params[:search]
-    end
-    @products = @search.results
-
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @products }
-    end
+    #@search = Product.search do 
+      #fulltext params[:search]
+    #end
+    #@products = @search.results
+#
+    #respond_to do |format|
+      #format.html # index.html.erb
+      #format.json { render json: @products }
+    #end
   end
 
   # GET /products/1

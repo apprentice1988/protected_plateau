@@ -1,4 +1,3 @@
-Product.delete_all
 2.times do 
 	Product.create(
 		:title=>"small glass pyramid",

@@ -11,8 +11,7 @@ class Product < ActiveRecord::Base
   validates :title, presence: true 
 
   scope :tag_with, lambda{|tag_name| joins(:tags).where("tags.name = ?", tag_name)}
-  
-  searchable do 
-    text :title, :description
-  end
+  #searchable do 
+    #text :title, :description
+  #end
 end
