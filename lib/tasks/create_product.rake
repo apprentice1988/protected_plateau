@@ -1,5 +1,4 @@
 task :product_seed=>:environment do 
-	Product.delete_all
 2.times do 
 	Product.create(
 		:title=>"small glass pyramid",
